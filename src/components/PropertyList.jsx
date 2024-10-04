@@ -29,7 +29,7 @@ const PropertyList = () => {
               </div>
             </div>
             <div className="p-4">
-              <Link to={`/projects/${property.id}`}>
+              <Link to={`/portfolio/${property.id}`}>
                 <button className="w-full bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-2 px-4 rounded">
                   View Details
                 </button>
