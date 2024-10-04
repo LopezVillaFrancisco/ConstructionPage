@@ -40,11 +40,11 @@ const Navbar = () => {
             Home
           </Link>
           <Link
-            to="/properties"
+            to="/portfolio"
             className="block text-gray-300 py-2 px-4 text-sm lg:text-base cursor-pointer hover:text-yellow-500"
             onClick={() => setIsOpen(false)}
           >
-            Properties
+            Portfolio
           </Link>
           <Link
             to="/aboutus"
