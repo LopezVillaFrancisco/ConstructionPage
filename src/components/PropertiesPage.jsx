@@ -38,7 +38,7 @@ const PropertiesPage = () => {
               </div>
             </div>
             <div className="p-4">
-              <Link to={`/properties/${property.id}`}>
+              <Link to={`/portfolio/${property.id}`}>
                 <button className="w-full bg-yellow-600 hover:bg-yellow-700 text-white font-semibold py-2 px-4 rounded">
                   View Details
                 </button>
